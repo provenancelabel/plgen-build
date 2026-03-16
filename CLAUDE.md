@@ -39,7 +39,7 @@ This file is automatically loaded at the start of every Claude Code session in t
   - provenancelabel.org: Logo · Spec · Join · Member Login ↗
   - registry.provenancelabel.org: Logo · New Label · My Labels · provenancelabel.org ↗
 - **Auth:** `x-plgen-key` header (API key). Admin routes use `x-admin-key`.
-- **Deploy:** push to GitHub → SSH into droplet → `cd /var/www/registry && git pull && pm2 restart registry`
+- **Deploy:** push to GitHub → SSH into droplet → `cd /var/www/registry && git pull && pm2 restart plgen-registry`
 - **SSH alias:** `ssh plgen` (configured in ~/.ssh/config)
 - **Always use `nano`** for multiline content in SSH terminal — never heredoc.
 - **Always use `bash /tmp/script.sh`** for long curl commands in terminal.
